@@ -237,7 +237,8 @@ app.add_middleware(
     CORSMiddleware,
 
     allow_origins=[
-        "http://localhost:3000"
+        "http://localhost:3000",
+        "https://kk-engineering-website-1.onrender.com",
     ],
 
     allow_credentials=True,
