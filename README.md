@@ -1,145 +1,199 @@
-KK Engineering — AC & HVAC Solutions
+<div align="center">
 
-A modern and responsive business website developed for KK Engineering, a company specializing in AC Ducting Installation and HVAC solutions.
+# ❄️ KK Engineering — AC & HVAC Solutions
 
-The website is designed to showcase the company's services, completed projects, service areas, and provide customers with an easy way to contact the company and request a quotation.
+### A modern, responsive business website for **AC Ducting Installation** and **HVAC solutions**
 
-🌐 Website Overview
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Render](https://img.shields.io/badge/Backend-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 
-The KK Engineering website provides customers with information about the company and its AC ducting services while making it easy to:
+[🌐 Live Website](#-live-website) · [✨ Features](#-features) · [🏗️ Architecture](#%EF%B8%8F-architecture) · [🚀 Getting Started](#-getting-started) · [🔐 Admin Panel](#-admin-panel)
 
-Explore AC ducting and HVAC services
-View completed projects and work
-Learn about the company
-Request a quotation
-Contact the company
-Connect directly through WhatsApp
-Check frequently asked questions
-View areas where services are available
-✨ Main Features
-🏠 Home Page
-Professional introduction to KK Engineering
-AC & HVAC service highlights
-Clear Call-to-Action buttons
-Quick access to WhatsApp and enquiry options
-👨‍💼 About Us
-Company introduction
-Business overview
-Information about KK Engineering and its services
-🛠️ Services
+</div>
 
-The website showcases AC ducting and related HVAC services, including:
+---
 
-AC Ducting Installation
-HVAC Duct Work
-Duct Fabrication
-Duct Installation
-Commercial AC Ducting
-Industrial AC Ducting
-Ventilation Solutions
-📸 Projects / Our Work
-Showcase of completed projects
-Project images
-Work/project details
-Visual representation of installation work
-⭐ Why Choose Us
+## 🌐 Live Website
 
-Highlights important company strengths such as:
+| | |
+|---|---|
+| **🖥️ Website** | 👉 **[Visit KK Engineering Website](https://your-live-website-url.com)** |
+| **⚙️ Backend API** | [`https://kk-engineering-website.onrender.com`](https://kk-engineering-website.onrender.com) |
+| **🔐 Admin Panel** | `https://your-live-website-url.com/admin` |
 
-Professional installation
-Quality workmanship
-Reliable service
-Customer-focused approach
-Experienced work
-Timely project completion
-💰 Get a Quote
+> 💡 **Note:** The backend is hosted on Render, so the first request may take a few seconds if the server has been idle.
 
-Customers can submit their requirements through an enquiry/quotation form.
+<!-- Add a screenshot or GIF here to showcase the project -->
+<!-- ![KK Engineering Preview](./public/images/preview.png) -->
 
-The form helps collect customer information and project requirements so the company can contact them.
+---
 
-📱 WhatsApp Integration
+## 📖 Overview
 
-Customers can directly contact KK Engineering through WhatsApp for:
+The **KK Engineering** website showcases the company's services, completed projects, and service areas, while giving customers an easy way to **request a quotation** or **contact the company directly**.
 
-Project enquiries
-Service requirements
-Quotations
-General questions
-📞 Contact Us
+**Customers can:**
 
-Provides customers with convenient contact options and company information.
+- 🔧 Explore AC ducting and HVAC services
+- 📸 View completed projects and work
+- 🏢 Learn about the company
+- 💰 Request a quotation
+- 📞 Contact the company
+- 💬 Connect instantly through WhatsApp
+- ❓ Read frequently asked questions
+- 📍 Check the areas where services are available
 
-❓ FAQ
+---
 
-Frequently asked questions related to AC ducting, installation, projects, and services.
+## ✨ Features
 
-📍 Areas We Serve
+### 🏠 Home Page
+- Professional introduction to **KK Engineering**
+- AC & HVAC service highlights
+- Clear **Call-to-Action** buttons
+- Quick access to **WhatsApp** and enquiry options
 
-Displays the locations/areas where KK Engineering provides AC ducting and HVAC services.
+### 👨‍💼 About Us
+- Company introduction and business overview
+- Information about KK Engineering and its services
 
-🔐 Admin Panel
+### 🛠️ Services
+| Service | Description |
+|---|---|
+| **AC Ducting Installation** | Complete ducting setup for residential and commercial spaces |
+| **HVAC Duct Work** | Professional HVAC ductwork solutions |
+| **Duct Fabrication** | Custom-fabricated ducts built to requirement |
+| **Duct Installation** | Precise and reliable installation |
+| **Commercial AC Ducting** | Solutions for offices, shops, and commercial buildings |
+| **Industrial AC Ducting** | Heavy-duty ducting for industrial facilities |
+| **Ventilation Solutions** | Efficient airflow and ventilation systems |
 
-The website also includes an Admin Panel for managing website-related business information and customer enquiries.
+### 📸 Projects / Our Work
+- Showcase of **completed projects**
+- Project images and work details
+- Visual representation of installation quality
 
-Admin Features
-Admin Login
-Secure authentication
-Manage customer enquiries
-Manage project information
-Manage website content
-View submitted quotation requests
+### ⭐ Why Choose Us
+- ✅ **Professional installation**
+- ✅ **Quality workmanship**
+- ✅ **Reliable service**
+- ✅ **Customer-focused approach**
+- ✅ **Experienced team**
+- ✅ **Timely project completion**
 
-The frontend communicates with the backend through REST APIs.
+### 💰 Get a Quote
+Customers submit their requirements through an enquiry form, so the company can follow up quickly.
 
-🏗️ Website Architecture
-                    ┌─────────────────────┐
-                    │      Customer       │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │   KK Engineering    │
-                    │      Website        │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │     Backend API      │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │      Database        │
-                    └─────────────────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │    Admin Panel       │
-                    └─────────────────────┘
-💻 Technology Stack
-Frontend
-Next.js
-React
-TypeScript
-HTML5
-CSS
-Responsive Web Design
-Backend
-REST API
-Node.js / Backend API
-Authentication
-API-based communication
-Database
-Database for storing enquiries and website data
-Deployment
-Frontend: Production deployment
-Backend: Render
+### 📱 WhatsApp Integration
+Direct contact for **project enquiries**, **service requirements**, **quotations**, and **general questions**.
 
-Backend API:
+### 📞 Contact Us · ❓ FAQ · 📍 Areas We Serve
+- Convenient contact options and company information
+- Answers to common questions about AC ducting, installation, and projects
+- Locations where KK Engineering provides services
 
-https://kk-engineering-website.onrender.com
-📂 Project Structure
+---
+
+## 🔐 Admin Panel
+
+A secure admin area for managing the business side of the website.
+
+| Feature | Description |
+|---|---|
+| **Admin Login** | Secure authentication |
+| **Manage Enquiries** | View and manage customer enquiries |
+| **Quotation Requests** | View all submitted quotation requests |
+| **Manage Projects** | Update project information |
+| **Manage Content** | Control website content |
+
+The frontend communicates with the backend through **REST APIs**.
+
+---
+
+## 🏗️ Architecture
+
+```
+┌─────────────────────┐
+│      Customer       │
+└──────────┬──────────┘
+           ▼
+┌─────────────────────┐
+│   KK Engineering    │
+│  Website (Next.js)  │
+└──────────┬──────────┘
+           ▼
+┌─────────────────────┐
+│     Backend API     │
+│   (Node.js / REST)  │
+└──────────┬──────────┘
+           ▼
+┌─────────────────────┐
+│      Database       │
+└──────────┬──────────┘
+           ▼
+┌─────────────────────┐
+│     Admin Panel     │
+└─────────────────────┘
+```
+
+### 🔄 Customer Flow
+
+```
+Customer → Website → View Services / Projects → Get a Quote
+        → Submit Enquiry → Backend API → Database → Admin manages enquiry
+```
+
+### 💬 WhatsApp Flow
+
+```
+Customer → Click WhatsApp → Direct conversation with KK Engineering
+```
+
+---
+
+## 📋 Enquiry System
+
+The quotation/contact form collects:
+
+| Field | Purpose |
+|---|---|
+| **Name** | Customer identification |
+| **Phone Number** | Follow-up contact |
+| **Email** | Follow-up contact |
+| **Service Requirement** | Type of service needed |
+| **Project Details** | Scope of the work |
+| **Location** | Site location |
+| **Message** | Additional requirements |
+
+Submissions are sent to the backend via API and stored for business follow-up.
+
+---
+
+## 💻 Technology Stack
+
+| Layer | Technologies |
+|---|---|
+| **Frontend** | Next.js, React, TypeScript, HTML5, CSS, Responsive Design |
+| **Backend** | Node.js, REST API, Authentication |
+| **Database** | Stores enquiries and website data |
+| **Deployment** | Frontend: Production deployment · Backend: **Render** |
+
+---
+
+## 📱 Responsive Design
+
+Optimized for a smooth experience on:
+
+**💻 Desktop** · **💻 Laptop** · **📟 Tablet** · **📱 Mobile**
+
+---
+
+## 📂 Project Structure
+
+```
 KK-ENGINEERING-WEBSITE/
 │
 ├── app/
@@ -172,142 +226,110 @@ KK-ENGINEERING-WEBSITE/
 ├── package.json
 ├── tsconfig.json
 └── README.md
+```
 
-The exact folder structure may vary depending on the current implementation.
+> The exact folder structure may vary depending on the current implementation.
 
-🔄 How the Website Works
-Customer Flow
-Customer
-   ↓
-Website
-   ↓
-Select Service / View Projects
-   ↓
-Get a Quote / Contact
-   ↓
-Submit Enquiry
-   ↓
-Backend API
-   ↓
-Database
-   ↓
-Admin receives/manages enquiry
-WhatsApp Flow
-Customer
-   ↓
-Click WhatsApp
-   ↓
-WhatsApp
-   ↓
-Direct conversation with KK Engineering
-📋 Customer Enquiry System
+---
 
-The quotation/contact form collects relevant customer information such as:
+## 🚀 Getting Started
 
-Name
-Phone Number
-Email
-Service Requirement
-Project Details
-Location
-Message / Additional Requirements
-
-The submitted information is sent to the backend through an API and stored for business follow-up.
-
-📱 Responsive Design
-
-The website is designed to work across different screen sizes:
-
-💻 Desktop
-💻 Laptop
-📱 Mobile
-📟 Tablet
-
-The UI adapts to different screen sizes to provide a smooth customer experience.
-
-🎯 Project Objectives
-
-The main objectives of this website are:
-
-Build an online presence for KK Engineering.
-Showcase AC ducting and HVAC services.
-Display completed projects professionally.
-Generate customer enquiries.
-Make quotation requests easier.
-Provide direct WhatsApp communication.
-Provide an admin system for managing enquiries.
-Create a professional and trustworthy digital presence.
-🚀 Local Development
-1. Clone the Repository
+### 1️⃣ Clone the repository
+```bash
 git clone <YOUR_GITHUB_REPOSITORY_URL>
-2. Navigate to the Project
+```
+
+### 2️⃣ Navigate to the project
+```bash
 cd kk-engineering-website
-3. Install Dependencies
+```
+
+### 3️⃣ Install dependencies
+```bash
 npm install
-4. Configure Environment Variables
+```
 
-Create a .env.local file:
+### 4️⃣ Configure environment variables
+Create a `.env.local` file in the root folder:
 
+```env
 NEXT_PUBLIC_API_URL=https://kk-engineering-website.onrender.com
+```
 
-Add any other required environment variables used by the project.
-
-5. Start Development Server
+### 5️⃣ Start the development server
+```bash
 npm run dev
+```
 
-The website will normally be available at:
+Open **http://localhost:3000** in your browser.
 
-http://localhost:3000
-🔒 Environment Variables
+---
 
-Sensitive information should not be committed to GitHub.
+## 🔒 Environment Variables
 
-Example:
+| Variable | Description |
+|---|---|
+| `NEXT_PUBLIC_API_URL` | Backend API base URL |
+| `DATABASE_URL` | Database connection string |
+| `ADMIN_SECRET` | Secret used for admin authentication |
 
-NEXT_PUBLIC_API_URL=
-DATABASE_URL=
-ADMIN_SECRET=
+> ⚠️ **Never commit secrets to GitHub.** Make sure `.env.local` is listed in `.gitignore`.
 
-Make sure .env.local is included in .gitignore.
+---
 
-🛡️ Security
+## 🛡️ Security
 
-The project follows basic security practices such as:
+- 🔑 Environment variables for sensitive configuration
+- 🚧 Protected admin routes
+- 👤 Admin authentication
+- 🔗 API-based communication
+- 🙈 `.env` files excluded from Git
+- ✅ Input validation on forms
 
-Environment variables for sensitive configuration
-Protected admin routes
-Admin authentication
-API-based communication
-.env files excluded from Git
-Input validation for forms
-📈 Future Improvements
+---
 
-Possible future improvements include:
+## 🎯 Project Objectives
 
-Online project management
-Advanced enquiry management
-Email notifications
-WhatsApp enquiry notifications
-Improved admin dashboard
-SEO optimization
-Google Maps integration
-Google Analytics
-Customer enquiry status tracking
-Online quotation generation
-More project categories
-Performance optimization
-👨‍💻 Developer
+1. Build a strong **online presence** for KK Engineering
+2. Showcase **AC ducting and HVAC services**
+3. Display completed projects **professionally**
+4. **Generate customer enquiries**
+5. Make **quotation requests** easier
+6. Provide **direct WhatsApp communication**
+7. Provide an **admin system** for managing enquiries
+8. Create a **trustworthy digital presence**
 
-Developed as a full-stack web development project for:
+---
 
-KK Engineering
+## 📈 Future Improvements
 
-Business
+- [ ] Online project management
+- [ ] Advanced enquiry management and status tracking
+- [ ] Email notifications
+- [ ] WhatsApp enquiry notifications
+- [ ] Improved admin dashboard
+- [ ] SEO optimization
+- [ ] Google Maps integration
+- [ ] Google Analytics
+- [ ] Online quotation generation
+- [ ] More project categories
+- [ ] Performance optimization
 
-AC Ducting Installation & HVAC Solutions
+---
 
-📄 License
+## 👨‍💻 Developer
 
-This project is developed for KK Engineering and is intended for business use.
+Developed as a **full-stack web development project** for **KK Engineering** — *AC Ducting Installation & HVAC Solutions*.
 
+---
+
+## 📄 License
+
+This project is developed for **KK Engineering** and is intended for business use.
 All company content, images, branding, and business information belong to their respective owners.
+
+<div align="center">
+
+**⭐ Built with care for KK Engineering ⭐**
+
+</div>
